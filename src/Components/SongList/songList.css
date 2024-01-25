@@ -1,0 +1,56 @@
+.songs-list {
+    margin-top: 50px;
+}
+
+.songs-list table {
+    border-collapse: collapse;
+    width: 100%;
+    caret-color: transparent;
+    color: #666666;
+}
+
+.songs-list table th {
+    text-align: left;
+    border-right: 1px solid #ffffff;
+    background-color: #EEEEEE;
+    padding: 15px;
+}
+
+.songs-list table tr {
+    border-bottom: 1px solid #EAEAEA;
+    transition: all 0.5s ease-out;
+}
+
+.songs-list table tr:hover {
+    background-color: #EEEEEE;
+    cursor: pointer;
+}
+
+.songs-list table tr td {
+    padding: 10px 15px;
+}
+
+.songs-list table tr td:nth-child(1), .songs-list table tr td:nth-child(4)  {
+    width: 60px;
+}
+
+.songs-list table tr td:nth-child(2), .songs-list table tr td:nth-child(3) {
+    width: 380px;
+    caret-color: transparent;
+}
+
+.songs-list table .song-row-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.songs-list table .song-row-icons img {
+    width: 12px;
+    height: 18px;
+}
+
+.songs-list table .song-row-icons button {
+    background: none;
+    border: none;
+}
